@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'uber', sans-serif;
+}
+body{
+    min-height: 100vh;
+    margin: 200px;
+    background-color: #021929;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{ 
+    position: absolute; 
+} 
+.card{
+    width: 380px;
+    height: 500px;
+    padding: 18px;;
+    background-image: linear-gradient(
+        148deg, rgba(255, 255, 255, 0.25), 
+        rgba(255, 255, 255, 0));
+    border: 2px solid rgba(233, 213, 193, 0.517);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+.circle{
+    position: absolute;
+}
+.circle-1{
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    background-image: radial-gradient(
+        69.62% 69.62% at 50% 50%, #faef8b 0%, 
+        #f5f526 100%);
+    top: -50px;
+    left: -60px;
+}
+.circle-2{
+    height: 260px;
+    width: 260px;   
+    border-radius: 100%;
+    background-image: radial-gradient(
+        69.62% 69.62% at 50% 50%, #ffe100 0%, 
+        #dddeaf 0.01%, #edff61 32.29%, 
+        #f5f526 98.59%);
+    top: -120px;
+    right: -170px;
+}
+.circle-3{
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+    background-image: radial-gradient(
+        69.62% 69.62% at 50% 50%, #f3fa8b 0%, 
+        #ebf526 100%);
+    bottom: -90px;    
+    left: -120px;
+}
+.card-image{
+    border: 2px solid#fcffd6;
+    border-radius: 12px;
+    background-color: #011b2e;
+    overflow: hidden;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 8px;
+}
+.card-img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.student-name{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 12px 0 6px 0;
+    letter-spacing: 1px;
+}
+.college-name{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.student-mob{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 6px;
+}
+.student-id{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 6px;
+    margin-left: 60px;
+}
+.course{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 60px;
+}
+.college-contact{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.social-icons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;  
+    align-content: center; 
+}
+.social-icons a{
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    font-size: 24px;
+    margin: 0 8px; 
+    text-align: center;
+    align-items: center;  
+    align-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.social-icons a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    color: #000000;
+}
