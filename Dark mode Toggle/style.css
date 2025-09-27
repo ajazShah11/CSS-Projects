@@ -19,8 +19,32 @@ body{
 }
 .btn-container{
     width: 15em;
-    height: 8em;
+    height: 5em;
+    display: flex;
+    position: relative;
+    align-items: center;
     background-color: #fff;
-    border-radius: 12px;
-    box-shadow: inset 0 8px 60px rgba();
+    border-radius: 50px;
+    padding: 0 8px;
+    box-shadow: inset 0 8px 60px rgba(0,0,0, .1),
+                inset 0 8px 8px rgba(0,0,0, .1),
+                inset 0 -4px 4px rgba(0,0,0, .1);
+    cursor: pointer;
+}
+.btn-indicator{
+    height: 4em;
+    width: 4em;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.btn-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-icon{
+    font-size: 2.8rem;
+    color: var(--light-color);
 }
