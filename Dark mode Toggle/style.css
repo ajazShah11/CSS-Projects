@@ -46,5 +46,5 @@ body{
 }
 .btn-icon{
     font-size: 2.8rem;
-    color: var(--light-color);
+    color: var(--light-icon-color);
 }
